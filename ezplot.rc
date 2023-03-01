@@ -234,7 +234,7 @@
 ## relative to font.size, using the following values: xx-small, x-small,
 ## small, medium, large, x-large, xx-large, larger, or smaller
 
-#font.family:   Source Serif Pro
+font.family:   Source Serif Pro
 #font.style:   normal
 #font.variant: normal
 #font.weight:  normal
@@ -304,11 +304,11 @@ font.size:    12.0
                         #   geometry, inputenc, type1cm.
                         # PostScript (PSNFSS) font packages may also be
                         # loaded, depending on your font settings.
-#text.latex.preamble: "\usepackage[default,regular,black]{sourceserifpro} \usepackage[T1]{fontenc} \usepackage[italic, symbolgreek]{mathastext}"
-#mathtext.fontset: custom
-#mathtext.it:  Source Serif Pro:italic
-#mathtext.rm:  Source Serif Pro
-#mathtext.bf:  Source Serif Pro:bold
+text.latex.preamble: "\usepackage[default,regular,black]{sourceserifpro} \usepackage[T1]{fontenc} \usepackage[italic, symbolgreek]{mathastext}"
+mathtext.fontset: custom
+mathtext.it:  "Source Serif Pro:italic"
+mathtext.rm:  "Source Serif Pro"
+mathtext.bf:  "Source Serif Pro:bold"
 ## The following settings allow you to select the fonts in math mode.
 #mathtext.fontset: dejavusans  # Should be 'dejavusans' (default),
                                # 'dejavuserif', 'cm' (Computer Modern), 'stix',
